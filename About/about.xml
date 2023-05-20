@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Celsius CHS</name>
+  <author>tinygrox</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>tinygrox.CHS.Celsius</packageId>
+  <url></url>
+  <description>Garwel 的 Celsius 的简中翻译。
+    Mod 简介 - 基于原工坊页面内容：（不是翻译的内容）
+    Celsius 修改了原版的温度机制，现在更加符合热力学
+    主要功能：
+    - 现在温度将按地图上每一个单元格进行单独模拟计算，不再是原版的按封闭区域的统一计算方式，越靠近热源的地方温度越高。不同建筑材料的导热能力也不一样。相较于开放水流温度，山体内的温度会更加稳定。
+    - 水面可以结冰，冰面可以融化。河流、深水区、浅水区的水体在冬天会结冰，在夏天会融化。在冰面上生火可以融化掉冰面。但请谨慎操作，防止你的殖民者掉进深水然后被淹死！
+    - 环境温度过高时，易燃物品可能会发生自燃。不同的材料有不同的自燃点。
+    - 还有各种小特性。例如气流和湿度会影响殖民者的舒适温度，以及在下雨时，雪会融化的更快。
+    反正提供了很多新的挑战而玩法。如果来不及建房子，还是让你的小人待在篝火旁吧。
+    其他更多信息请看原工坊页面
+    注：与 Heat Map, Proxy Heat 等类似的 mod 不兼容，因为该实现的这个 Mod 都已经实现了。
+
+
+以下是个人评测：
+    总的来说就是让原版的温度系统更加真实了，每一格温度都是单独计算，不会再出现房间内着火，然后几百度的高温你从外面拆堵墙就能瞬间降温的这种情况。而且还不卡。
+
+    然后温度低时水面（沼泽也会）会结冰，温度高了就融化，这个会卡，主要卡顿就在结冰/融化的过程，但是可以在设置里面关掉，我个人建议是关掉这个功能，因为如果你的地图又大，且水体很多，那么一到冬天/夏天水体大面积结冰/融化的时候就会非常卡，但如果地图水体占比面积不大，那么可以开着，但是注意在融化的时候不要让小人站在原来的深水区域上面！
+  </description>
+  <modDependencies>
+    <li>
+      <packageId>garwel.celsius</packageId>
+      <displayName>Celsius</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2725863762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>garwel.celsius</li>
+  </loadAfter>
+</ModMetaData>

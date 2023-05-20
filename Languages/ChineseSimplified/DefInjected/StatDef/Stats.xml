@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: heat capacity -->
+  <Celsius_HeatCapacity.label>热容量</Celsius_HeatCapacity.label>
+  <!-- EN: How slowly the object changes its temperature. -->
+  <Celsius_HeatCapacity.description>物体升温或降温所需的热量。</Celsius_HeatCapacity.description>
+  <!-- EN: {0} kJ/C -->
+  <Celsius_HeatCapacity.formatString>{0} kJ/C</Celsius_HeatCapacity.formatString>
+
+  <!-- EN: heat conductivity -->
+  <Celsius_HeatConductivity.label>导热系数</Celsius_HeatConductivity.label>
+  <!-- EN: How much energy the object exchanges with surrounding air. -->
+  <Celsius_HeatConductivity.description>物体与周围环境的空气交换热量的效率。</Celsius_HeatConductivity.description>
+  <!-- EN: {0} W/C -->
+  <Celsius_HeatConductivity.formatString>{0} W/C</Celsius_HeatConductivity.formatString>
+
+  <!-- EN: autoignition temperature -->
+  <Celsius_IgnitionTemperature.label>自燃点</Celsius_IgnitionTemperature.label>
+  <!-- EN: Minimum temperature when this thing ignites. -->
+  <Celsius_IgnitionTemperature.description>引起该物品自燃的最低温度。</Celsius_IgnitionTemperature.description>
+  
+</LanguageData>

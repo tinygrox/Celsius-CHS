@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Celsius -->
+  <Celsius.label>Celsius（摄氏度）</Celsius.label>
+  <!-- EN: Key bindings for Celsius mod. -->
+  <Celsius.description>Mod 的绑定按键。</Celsius.description>
+  
+</LanguageData>

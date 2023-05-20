@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: drowning -->
+  <Celsius_Hediff_Drown.label>溺亡</Celsius_Hediff_Drown.label>
+  <!-- EN: The pawn suddenly fell in deep water and drowned. -->
+  <Celsius_Hediff_Drown.description>该殖民者突然掉进深水中被淹死了。</Celsius_Hediff_Drown.description>
+  
+</LanguageData>

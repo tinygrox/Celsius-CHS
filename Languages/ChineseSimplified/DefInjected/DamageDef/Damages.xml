@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: drowning -->
+  <Celsius_Damage_Drown.label>溺亡</Celsius_Damage_Drown.label>
+  <!-- EN: {0} suddenly fell into deep water and drowned. -->
+  <Celsius_Damage_Drown.deathMessage>{0} 突然掉进了深水中被淹死了。</Celsius_Damage_Drown.deathMessage>
+  
+</LanguageData>

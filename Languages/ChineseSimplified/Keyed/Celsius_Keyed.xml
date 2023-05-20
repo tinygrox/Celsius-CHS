@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Vanilla -->
+  <Celsius_MountainTemperatureMode_Vanilla>原版</Celsius_MountainTemperatureMode_Vanilla>
+  <!-- EN: Mountains provide a constant underground temperature (similar to vanilla behaviour). -->
+  <Celsius_MountainTemperatureMode_Vanilla_tooltip>山体间温度保持一个恒定值（类似于原版设定）。</Celsius_MountainTemperatureMode_Vanilla_tooltip>
+  <!-- EN: Annual Average -->
+  <Celsius_MountainTemperatureMode_AnnualAverage>全年平均温度</Celsius_MountainTemperatureMode_AnnualAverage>
+  <!-- EN: Mountains provide a stable temperature throughout the year, which is defined by the map's climate. -->
+  <Celsius_MountainTemperatureMode_AnnualAverage_tooltip>根据当前的地图气候设置，山体间温度恒定。</Celsius_MountainTemperatureMode_AnnualAverage_tooltip>
+  <!-- EN: Season Average -->
+  <Celsius_MountainTemperatureMode_SeasonAverage>季节平均温度</Celsius_MountainTemperatureMode_SeasonAverage>
+  <!-- EN: Mountains provide a temperature that gradually changes with season. -->
+  <Celsius_MountainTemperatureMode_SeasonAverage_tooltip>山体间温度会随着季节变化。</Celsius_MountainTemperatureMode_SeasonAverage_tooltip>
+  <!-- EN: Ambient Air -->
+  <Celsius_MountainTemperatureMode_AmbientAir>环境温度</Celsius_MountainTemperatureMode_AmbientAir>
+  <!-- EN: Mountains have no special thermal effect, their temperature is the same as outdoor temperature. -->
+  <Celsius_MountainTemperatureMode_AmbientAir_tooltip>山体没有特殊的温度设置，里面的温度等同于室外温度。</Celsius_MountainTemperatureMode_AmbientAir_tooltip>
+  <!-- EN: Manual -->
+  <Celsius_MountainTemperatureMode_Manual>手动设置</Celsius_MountainTemperatureMode_Manual>
+  <!-- EN: Set mountain temperature to your wishes. -->
+  <Celsius_MountainTemperatureMode_Manual_tooltip>自由设置你想要的温度数值</Celsius_MountainTemperatureMode_Manual_tooltip>
+
+  <!-- EN: Use vanilla colors -->
+  <Celsius_Settings_Vanilla>使用原版颜色</Celsius_Settings_Vanilla>
+  <!-- EN: Use vanilla color scheme for heat overlay instead of Celsius'. -->
+  <Celsius_Settings_Vanilla_tooltip>温度显示的颜色风格沿用原版而非 Celsius。</Celsius_Settings_Vanilla_tooltip>
+  <!-- EN: Show temperature tooltip -->
+  <Celsius_Settings_ShowTempTooltip>显示温度提示</Celsius_Settings_ShowTempTooltip>
+  <!-- EN: When heat overlay is on, show a tooltip next to the cursor with the cell's exact temperature. -->
+  <Celsius_Settings_ShowTempTooltip_tooltip>切换温度显示时，在光标附近会有一个显示当前位置单元格温度的提示文本。</Celsius_Settings_ShowTempTooltip_tooltip>
+  <!-- EN: Freezing and melting -->
+  <Celsius_Settings_FreezingAndMelting>结冰和融化</Celsius_Settings_FreezingAndMelting>
+	<!-- EN: Water can freeze, and ice can melt into water. -->
+  <Celsius_Settings_FreezingAndMelting_tooltip>水会冻成冰，冰会融化成水</Celsius_Settings_FreezingAndMelting_tooltip>
+  <!-- EN: Advanced autoignition -->
+  <Celsius_Settings_AdvAutoignition>高级自燃机制</Celsius_Settings_AdvAutoignition>
+  <!-- EN: Flammable things can spontaneously catch fire when they get too hot. Replaces vanilla autoignition. -->
+  <Celsius_Settings_AdvAutoignition_tooltip>易燃物在其温度过热时会自燃。替代原版的自燃机制。</Celsius_Settings_AdvAutoignition_tooltip>
+  <!-- EN: Weather effects on pawns -->
+  <Celsius_Settings_PawnWeatherEffects>殖民者受天气影响</Celsius_Settings_PawnWeatherEffects>
+  <!-- EN: Wind chill and wetness affect comfortable temperatures. -->
+  <Celsius_Settings_PawnWeatherEffects_tooltip>寒风和潮湿会影响舒服温度。</Celsius_Settings_PawnWeatherEffects_tooltip>
+  <!-- EN: Temperature display digits: {0} -->
+  <Celsius_Settings_TempDisplayDigits>温度显示位数: {0}</Celsius_Settings_TempDisplayDigits>
+	<!-- EN: How many digits to print after point for temperatures. Default value: {0}. -->
+  <Celsius_Settings_TempDisplayDigits_tooltip>温度的数值显示小数点后的多少位。默认: {0}.</Celsius_Settings_TempDisplayDigits_tooltip>
+  <!-- EN: Mountain temperature: -->
+  <Celsius_Settings_MountainTemp>山体温度:</Celsius_Settings_MountainTemp>
+  <!-- EN: Currently: {0} -->
+  <Celsius_Settings_CurrentMapTemp_tooltip>当前: {0}</Celsius_Settings_CurrentMapTemp_tooltip>
+  <!-- EN: Temperature: {0} -->
+  <Celsius_Settings_ManualTemperature>温度: {0}</Celsius_Settings_ManualTemperature>
+  <!-- EN: Change the values below at your own risk. -->
+  <Celsius_Settings_TakeOwnRisk>更改下列设置所产生的风险由你自己承担。</Celsius_Settings_TakeOwnRisk>
+  <!-- EN: Conductivity speed: {0} -->
+  <Celsius_Settings_ConductivitySpeed>热传导速率:{0}</Celsius_Settings_ConductivitySpeed>
+  <!-- EN: How quickly temperature changes. -->
+  <Celsius_Settings_ConductivitySpeed_tooltip>温度变化速度。</Celsius_Settings_ConductivitySpeed_tooltip>
+  <!-- EN: Convection conductivity effect: -->
+  <Celsius_Settings_ConvectionConductivityEffect>对流热传导效果:</Celsius_Settings_ConvectionConductivityEffect>
+  <!-- EN: How much air convection increases air conductivity. Recommended value: {0}. -->
+  <Celsius_Settings_ConvectionConductivityEffect_tooltip>空气对流能增加的空气热传导率。建议值：{0}。</Celsius_Settings_ConvectionConductivityEffect_tooltip>
+  <!-- EN: Environment diffusion: {0} -->
+  <Celsius_Settings_EnvironmentDiffusion>环境热扩散: {0}</Celsius_Settings_EnvironmentDiffusion>
+  <!-- EN: How strongly environment (e.g. outdoor) temperature affects cell temperatures. Recommended value: {0}. -->
+  <Celsius_Settings_EnvironmentDiffusion_tooltip>环境（如室外）温度对单元格温度的影响。建议值：{0}。</Celsius_Settings_EnvironmentDiffusion_tooltip>
+  <!-- EN: Heat push: {0} -->
+  <Celsius_Settings_HeatPush>热量散发: {0}</Celsius_Settings_HeatPush>
+  <!-- EN: Effect of things that produce or reduce heat (e.g. fires, heaters and coolers). -->
+  <Celsius_Settings_HeatPush_tooltip>此选项影响那些可产热或吸热的物品（例如火焰，加热器和空调）。</Celsius_Settings_HeatPush_tooltip>
+  <!-- EN: Debug logging mode -->
+  <Celsius_Settings_DebugMode>调试记录模式</Celsius_Settings_DebugMode>
+	<!-- EN: Verbose logging of Celsius' work. Required for bug reports. -->
+  <Celsius_Settings_DebugMode_tooltip>Celsius运行时生成详细日志。如要反馈 Bug 必须开启。</Celsius_Settings_DebugMode_tooltip>
+  <!-- EN: Reset to default -->
+  <Celsius_Settings_ResetDefault>重置</Celsius_Settings_ResetDefault>
+
+  <!-- EN: Cell: {0} -->
+  <Celsius_MapTempOverlay_Cell>单元格: {0}</Celsius_MapTempOverlay_Cell>
+  <!-- EN: Terrain: {0} -->
+  <Celsius_MapTempOverlay_Terrain>地形: {0}</Celsius_MapTempOverlay_Terrain>
+  <!-- EN: Terrain -->
+  <Celsius_Terrain>地形</Celsius_Terrain>
+
+  <!-- EN: {0} volumetric heat capacity: {1} -->
+  <Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>{0}体积热容: {1}</Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>
+  <!-- EN: {0} volume: {1} m^3 -->
+  <Celsius_Stat_HeatCapacity_Volume>{0}体积: {1} m^3</Celsius_Stat_HeatCapacity_Volume>
+  <!-- EN: Air heat capacity: {0} -->
+  <Celsius_Stat_HeatCapacity_AirHeatCapacity>空气热容: {0}</Celsius_Stat_HeatCapacity_AirHeatCapacity>
+
+  <!-- EN: {0} base insulation: {1} -->
+  <Celsius_Stat_HeatConductivity_BaseInsulation>{0}基础隔热: {1}</Celsius_Stat_HeatConductivity_BaseInsulation>
+  <!-- EN: {0} insulation:  -->
+  <Celsius_Stat_HeatConductivity_StuffInsulation>{0}隔热: </Celsius_Stat_HeatConductivity_StuffInsulation>
+  <!-- EN: The {0} is open. -->
+  <Celsius_Stat_HeatConductivity_AirflowOpen>{0}已开启。</Celsius_Stat_HeatConductivity_AirflowOpen>
+  <!-- EN: Airflow: {0} -->
+  <Celsius_Stat_HeatConductivity_Airflow>空气流动: {0}</Celsius_Stat_HeatConductivity_Airflow>
+  <!-- EN: Actual insulation: {0} -->
+  <Celsius_Stat_HeatConductivity_ActualInsulation>实际隔热: {0}</Celsius_Stat_HeatConductivity_ActualInsulation>
+  <!-- EN: Conductivity: {0} ^ {1} = {2} -->
+  <Celsius_Stat_HeatConductivity_Conductivity>热导率: {0} ^ {1} = {2}</Celsius_Stat_HeatConductivity_Conductivity>
+
+  <!-- EN: Wet: {0} -->
+  <Celsius_StatPart_Wetness_Explanation>湿度: {0}</Celsius_StatPart_Wetness_Explanation>
+  <!-- EN: Wind {0}: {1} -->
+  <Celsius_StatPart_WindSpeed_Explanation>风{0}: {1}</Celsius_StatPart_WindSpeed_Explanation>
+
+</LanguageData>
