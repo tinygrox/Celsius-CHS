@@ -53,10 +53,10 @@
   <Celsius_Settings_ManualTemperature>温度: {0}</Celsius_Settings_ManualTemperature>
   <!-- EN: Change the values below at your own risk. -->
   <Celsius_Settings_TakeOwnRisk>更改下列设置所产生的风险由你自己承担。</Celsius_Settings_TakeOwnRisk>
-  <!-- EN: Conductivity speed: {0} -->
-  <Celsius_Settings_ConductivitySpeed>热传导速率:{0}</Celsius_Settings_ConductivitySpeed>
-  <!-- EN: How quickly temperature changes. -->
-  <Celsius_Settings_ConductivitySpeed_tooltip>温度变化速度。</Celsius_Settings_ConductivitySpeed_tooltip>
+  <!-- EN: Update interval: {0} ticks -->
+  <Celsius_Settings_UpdateInterval>刷新间隔：{0} ticks</Celsius_Settings_UpdateInterval>
+	<!-- EN: How often map temperatures are updated. Lower values improve accuracy, higher values improve performance. 1 real time second = 60 ticks at normal speed. Recommended value: {0} ticks. -->
+  <Celsius_Settings_UpdateInterval_tooltip>地图温度的刷新间隔频率。值越小，模拟效果越精确，性能花费越高。现实 1 秒 = 正常速度下 60 个tick。建议值：{0} ticks</Celsius_Settings_UpdateInterval_tooltip>
   <!-- EN: Convection conductivity effect: -->
   <Celsius_Settings_ConvectionConductivityEffect>对流热传导效果:</Celsius_Settings_ConvectionConductivityEffect>
   <!-- EN: How much air convection increases air conductivity. Recommended value: {0}. -->
@@ -65,6 +65,10 @@
   <Celsius_Settings_EnvironmentDiffusion>环境热扩散: {0}</Celsius_Settings_EnvironmentDiffusion>
   <!-- EN: How strongly environment (e.g. outdoor) temperature affects cell temperatures. Recommended value: {0}. -->
   <Celsius_Settings_EnvironmentDiffusion_tooltip>环境（如室外）温度对单元格温度的影响。建议值：{0}。</Celsius_Settings_EnvironmentDiffusion_tooltip>
+  <!-- EN: Roof insulation: {0} -->
+  <Celsius_Settings_RoofInsulation>屋顶隔热：{0}</Celsius_Settings_RoofInsulation>
+	<!-- EN: How well roofs (constructed and natural) preserve indoor temperature. Recommended value: {0}. -->
+  <Celsius_Settings_RoofInsulation_tooltip>屋顶(包括建造屋顶和自然生成)的室内保温效果。 建议值: {0}.</Celsius_Settings_RoofInsulation_tooltip>
   <!-- EN: Heat push: {0} -->
   <Celsius_Settings_HeatPush>热量散发: {0}</Celsius_Settings_HeatPush>
   <!-- EN: Effect of things that produce or reduce heat (e.g. fires, heaters and coolers). -->
@@ -83,29 +87,27 @@
   <!-- EN: Terrain -->
   <Celsius_Terrain>地形</Celsius_Terrain>
 
-  <!-- EN: {0} volumetric heat capacity: {1} -->
-  <Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>{0}体积热容: {1}</Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>
-  <!-- EN: {0} volume: {1} m^3 -->
-  <Celsius_Stat_HeatCapacity_Volume>{0}体积: {1} m^3</Celsius_Stat_HeatCapacity_Volume>
+  <!-- EN: {0} volumetric heat capacity: {1}/m³ -->
+  <Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>{0}体积热容: {1}/m³</Celsius_Stat_HeatCapacity_StuffVolumetricHeatCapacity>
+  <!-- EN: {0} volume: {1} m³ -->
+  <Celsius_Stat_HeatCapacity_Volume>{0}体积: {1}m³</Celsius_Stat_HeatCapacity_Volume>
   <!-- EN: Air heat capacity: {0} -->
   <Celsius_Stat_HeatCapacity_AirHeatCapacity>空气热容: {0}</Celsius_Stat_HeatCapacity_AirHeatCapacity>
 
   <!-- EN: {0} base insulation: {1} -->
-  <Celsius_Stat_HeatConductivity_BaseInsulation>{0}基础隔热: {1}</Celsius_Stat_HeatConductivity_BaseInsulation>
+   <Celsius_Stat_Insulation_BaseInsulation>{0}基础隔热: {1}</Celsius_Stat_Insulation_BaseInsulation>
   <!-- EN: {0} insulation:  -->
-  <Celsius_Stat_HeatConductivity_StuffInsulation>{0}隔热: </Celsius_Stat_HeatConductivity_StuffInsulation>
+  <Celsius_Stat_Insulation_StuffInsulation>{0}隔热: </Celsius_Stat_Insulation_StuffInsulation>
   <!-- EN: The {0} is open. -->
-  <Celsius_Stat_HeatConductivity_AirflowOpen>{0}已开启。</Celsius_Stat_HeatConductivity_AirflowOpen>
+  <Celsius_Stat_Insulation_AirflowOpen>{0}已开启。</Celsius_Stat_Insulation_AirflowOpen>
   <!-- EN: Airflow: {0} -->
-  <Celsius_Stat_HeatConductivity_Airflow>空气流动: {0}</Celsius_Stat_HeatConductivity_Airflow>
-  <!-- EN: Actual insulation: {0} -->
-  <Celsius_Stat_HeatConductivity_ActualInsulation>实际隔热: {0}</Celsius_Stat_HeatConductivity_ActualInsulation>
-  <!-- EN: Conductivity: {0} ^ {1} = {2} -->
-  <Celsius_Stat_HeatConductivity_Conductivity>热导率: {0} ^ {1} = {2}</Celsius_Stat_HeatConductivity_Conductivity>
+  <Celsius_Stat_Insulation_Airflow>空气流动: {0}</Celsius_Stat_Insulation_Airflow>
 
   <!-- EN: Wet: {0} -->
   <Celsius_StatPart_Wetness_Explanation>湿度: {0}</Celsius_StatPart_Wetness_Explanation>
   <!-- EN: Wind {0}: {1} -->
   <Celsius_StatPart_WindSpeed_Explanation>风{0}: {1}</Celsius_StatPart_WindSpeed_Explanation>
+  <!-- EN: Direct sunlight: {0} -->
+  <Celsius_StatPart_DirectSunlight_Explanation>直射阳光: {0}</Celsius_StatPart_DirectSunlight_Explanation>
 
 </LanguageData>
